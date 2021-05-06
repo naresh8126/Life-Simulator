@@ -1,4 +1,4 @@
-// elements
+/Life-Simulator// elements
 let main = document.querySelector(".main");
 let current = "";
 let navlinks = document.getElementsByClassName("navlinks");
