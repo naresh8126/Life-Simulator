@@ -6,20 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game</title>
-    <base href="/Life-Simulator/" target="/">
+    <base href="/" target="_blank">
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div id="newlife" class="newlife">
+        <div class="container">
+
+            <input id="payernameinput" class="form-control" type="text">
+            <button class="btn btn-success my-2" onclick="StartNewLife()">Start New Life</button>
+            
+        </div>
+    </div>
     <div class="navup">
         <div class="Totel-Cash">
             Totel Cash
             <p id="cash">0</p>
         </div>
         <ul>
-            <li><a href="/Life-Simulator/" class="navlinks active"><img src="icon/png/346-home.png"
+            <li><a href="/" class="navlinks active"><img src="icon/png/346-home.png"
                         alt="">Home</a></li>
             <li><a href="Employment.html" class="navlinks"><img
                         src="icon/png/260-resume.png" alt="">Employment</a></li>
@@ -62,9 +70,9 @@
         <div class="box space_between">
             <div class="align_center">
                 <b>
-                    <p id="playername">naresh jfuyrfydfgdg</p>
+                    <p id="playername"></p>
                 </b>
-                <p id="age">Age: 18</p>
+                <p id="age">Age: 0</p>
                 <p id="children">Children: 0</p>
                 <p id="prestige_level">Prestige Level: 0</p>
             </div>

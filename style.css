@@ -179,6 +179,17 @@ body{
     background-color: #13423d;
 }
 
+.newlife{
+    position: absolute;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 @media only screen and (max-width: 800px) {
     .navup, .navdown{
