@@ -1,0 +1,830 @@
+{
+    "Apprentices": [
+        {
+            "name": "Website Development Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Software Development Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Graphic Development Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Ethical Hacking Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "System Analysis Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Mechanic Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Game Development Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Accounting Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Business Apprenticeship",
+            "duration": 24,
+            "feespermonth": 0,
+            "givespermonth": 500,
+            "onetimefees": 0,
+            "requirements": ""
+        }
+    ],
+    "College Courses": [
+        {
+            "name": "Health and Social Care A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Photography A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Website Development A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Software Development A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Electrical Engineering A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Low A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Graphic Design A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Foreigns Language A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Media A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Journalism A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Music A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Perfoming Arts a Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Maths A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "English A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Science A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Business A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Maketing A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Childcare A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        },
+        {
+            "name": "Psychology A Level",
+            "duration": 24,
+            "feespermonth": 100,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": ""
+        }
+    ],
+    "University Courses": [
+        {
+            "name": "Health and Social Care Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Health and Social Care A Level"
+        },
+        {
+            "name": "Photography Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Photography A Level"
+        },
+        {
+            "name": "Website Development Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Website Development A Level"
+        },
+        {
+            "name": "Software Development Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Software Development A Level"
+        },
+        {
+            "name": "Electrical Engineering Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Electrical Engineering  A Level"
+        },
+        {
+            "name": "Low Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Low A Level"
+        },
+        {
+            "name": "Graphic Design Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Graphic Design A Level"
+        },
+        {
+            "name": "Foreigns Language Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Foreigns Language A Level"
+        },
+        {
+            "name": "Media Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Media A Level"
+        },
+        {
+            "name": "Journalism Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Journalism A Level"
+        },
+        {
+            "name": "Music Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Music A Level"
+        },
+        {
+            "name": "Perfoming Arts Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Perfoming Arts A Level"
+        },
+        {
+            "name": "Maths Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Maths A Level"
+        },
+        {
+            "name": "English Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "English A Level"
+        },
+        {
+            "name": "Science Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Science A Level"
+        },
+        {
+            "name": "Business Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Business A Level"
+        },
+        {
+            "name": "Maketing Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Maketing A Level"
+        },
+        {
+            "name": "Paleontology Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Paleontology A Level"
+        },
+        {
+            "name": "Marine Biology Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Marine Biology A Level"
+        },
+        {
+            "name": "Forensic Science Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Forensic Science A Level"
+        },
+        {
+            "name": "Physics Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Physics A Level"
+        },
+        {
+            "name": "Medicine Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Medicine A Level"
+        },
+        {
+            "name": "Dentistry Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Dentistry A Level"
+        },
+        {
+            "name": "Conservation Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Conservation A Level"
+        },
+        {
+            "name": "Meteorology Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Meteorology A Level"
+        },
+        {
+            "name": "Childcare Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Childcare A Level"
+        },
+        {
+            "name": "Psychology Degree",
+            "duration": 36,
+            "feespermonth": 800,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Psychology A Level"
+        }
+    ],
+    "Masters Degree Courses": [
+        {
+            "name": "Health and Social Care Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Health and Social Care Degree"
+        },
+        {
+            "name": "Photography Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Photography Degree"
+        },
+        {
+            "name": "Website Development Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Website Development Degree"
+        },
+        {
+            "name": "Software Development Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Software Development Degree"
+        },
+        {
+            "name": "Electrical Engineering Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Electrical Engineering Degree"
+        },
+        {
+            "name": "Low Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Low Degree"
+        },
+        {
+            "name": "Graphic Design Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Graphic Design Degree"
+        },
+        {
+            "name": "Foreigns Language Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Foreigns Language Degree"
+        },
+        {
+            "name": "Media Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Media Degree"
+        },
+        {
+            "name": "Journalism Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Journalism Degree"
+        },
+        {
+            "name": "Music Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Music Degree"
+        },
+        {
+            "name": "Perfoming Arts Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Perfoming Arts Degree"
+        },
+        {
+            "name": "Maths Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Maths Degree"
+        },
+        {
+            "name": "English Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "English Degree"
+        },
+        {
+            "name": "Science Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Science Degree"
+        },
+        {
+            "name": "Business Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Business Degree"
+        },
+        {
+            "name": "Maketing Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Maketing Degree"
+        },
+        {
+            "name": "Paleontology Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Paleontology Degree"
+        },
+        {
+            "name": "Marine Biology Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Marine Biology Degree"
+        },
+        {
+            "name": "Forensic Science Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Forensic Science Degree"
+        },
+        {
+            "name": "Physics Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Physics Degree"
+        },
+        {
+            "name": "Medicine Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Medicine Degree"
+        },
+        {
+            "name": "Dentistry Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Dentistry Degree"
+        },
+        {
+            "name": "Conservation Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Conservation Degree"
+        },
+        {
+            "name": "Meteorology Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Meteorology Degree"
+        },
+        {
+            "name": "Childcare Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Childcare Degree"
+        },
+        {
+            "name": "Psychology Masters",
+            "duration": 12,
+            "feespermonth": 1200,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Psychology Degree"
+        }
+    ],
+    "Doctorate Courses": [
+        {
+            "name": "Paleontology Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Paleontology Masters"
+        },
+        {
+            "name": "Marine Biology Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Marine Biology Masters"
+        },
+        {
+            "name": "Forensic Science Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Forensic Science Masters"
+        },
+        {
+            "name": "Physics Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Physics Masters"
+        },
+        {
+            "name": "Medicine Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Medicine Masters"
+        },
+        {
+            "name": "Dentistry Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Dentistry Masters"
+        },
+        {
+            "name": "Conservation Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Conservation Masters"
+        },
+        {
+            "name": "Meteorology Doctorate",
+            "duration": 48,
+            "feespermonth": 1400,
+            "givespermonth": 0,
+            "onetimefees": 0,
+            "requirements": "Meteorology Masters"
+        }
+    ],
+    "Specialist Courses": [
+        {
+            "name": "Sea Survival",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Wilderness Survival",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "First Aid",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Personal Training",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Windsurfing",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Sailing",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Paragliding",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Skydiving",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Self Defence",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Pilots License",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "SEN Training",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        },
+        {
+            "name": "Property Development",
+            "duration": 6,
+            "feespermonth": 0,
+            "givespermonth": 0,
+            "onetimefees": 3000,
+            "requirements": ""
+        }
+    ]
+}

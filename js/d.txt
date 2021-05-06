@@ -1,0 +1,175 @@
+
+
+
+    
+    //  2-years{
+    //     Website Development Apprenticeship
+    //     Software Development Apprenticeship
+    //     Graphic Development Apprenticeship
+    //     Ethical Hacker Apprenticeship
+    //     System Analysis Apprenticeship
+    //     Game Development Apprenticeship
+    //     Accounting Apprenticeship
+    //     Business Apprenticeship
+    // }
+    // College Courses 2-years{
+    //     Health and Social Care A Lavel
+    //     Photography A Lavel
+    //     Website Development A Lavel
+    //     Software Development A Lavel
+    //     Electrical Engineering A Lavel
+    //     Low A Lavel
+    //     Graphic Design A Lavel
+    //     Foreign Language A Lavel
+    //     Media A Lavel
+    //     Journalism A Lavel
+    //     Music A Lavel
+    //     Perfoming Arts a Lavel
+    //     Maths A Lavel
+    //     English A Lavel
+    //     Science A Lavel
+    //     Business A Lavel
+    //     Maketing A Level
+    //     Childcare A Lavel
+    //     Psychology A Level
+    // }
+    // University Courses 3-years{
+    //     Health and Social Degree
+    //     Photography Degree
+    //     Website Development Degree
+    //     Software Development Degree
+    //     Electrical Engineering Degree
+    //     Low Degree
+    //     Graphic Design Degree
+    //     Foreign Language Degree
+    //     Media Degree
+    //     Journalism Degree
+    //     Music Degree
+    //     Perfoming Arts Degree
+    //     Maths Degree
+    //     English Degree
+    //     Science Degree
+    //     Business Degree
+    //     Maketing Degree
+    //     Paleontology Degree
+    //     Marine Biology Degree
+    //     Forensic Science Degree
+    //     Physics Degree
+    //     Medicine Degree
+    //     Dentistry Degree
+    //     Conservation Degree
+    //     Meteorology Degree
+    //     Childcare Degree
+    //     Psychology Degree
+    // }
+    // Masters Degree Courses 1-year{
+    //     Health and Social Masters
+    //     Photography Masters
+    //     Website Development Masters
+    //     Software Development Masters
+    //     Electrical Engineering Masters
+    //     Low Masters
+    //     Graphic Design Masters
+    //     Foreign Language Masters
+    //     Media Masters
+    //     Journalism Masters
+    //     Music Masters
+    //     Perfoming Arts Masters
+    //     Maths Masters
+    //     English Masters
+    //     Science Masters
+    //     Business Masters
+    //     Maketing Masters
+    //     Paleontology Masters
+    //     Marine Biology Masters
+    //     Forensic Science Masters
+    //     Physics Masters
+    //     Medicine Masters
+    //     Dentistry Masters
+    //     Conservation Masters
+    //     Meteorology Masters
+    //     Childcare Masters
+    //     Psychology Masters
+    // }
+    // Doctorate Courses 4-years{
+    //     Paleontology Doctorate
+    //     Marine Biology Doctorate
+    //     Forensic Science Doctorate
+    //     Physics Doctorate
+    //     Medicine Doctorate
+    //     Dentistry Doctorate
+    //     Conservation Doctorate
+    //     Meteorology Doctorate
+    // }
+    // Specialist Courses 6-months{
+    //     Sea Survival
+    //     Wilderness Survival
+    //     First Aid
+    //     Personal Training
+    //     Windsurfing
+    //     Sailing
+    //     Paragliding
+    //     Skydiving
+    //     Self Defence
+    //     Driving License
+    //     Pilots License
+    //     SEN Training
+    //     Property Development
+    // }
+
+
+Retail Assistant Manager
+Fast Food Assistant Manager
+Business Sales
+Construction Worker
+Mechanic
+Trainee Web Developer
+Trainee Software Developer
+Trainee Ethical Hacker
+Trainee Systems Analyst
+Trainee Games Developer
+Trainee Accountant
+Army Private
+Trainee Graphic Designer
+Nursery Nurse
+School Languages Assistant
+Psychology Assistant
+
+Sous Chef 
+Head Waiter
+Cleaning Manager
+Funeral Assistant Manager
+Retail Manager
+Fast Food Manager
+Business Sales Executive
+Construction Assistant Manager
+Lead Mechanic
+Junior Web Designer
+Junior Software Developer
+Junior Ethical Hacker
+Junior Systems Analyst
+Junior Games Developer
+Junior Accountant
+Assistant Curator-Paleontology
+Marine Assistant
+Assistant Forensic Scientist
+Science Teacher
+Maths Teacher
+English Teacher
+Nurse
+Dentistry Assistant
+Conservation Assistant
+Trainee Meteorologist
+Nursing Assistant
+Trainee Photographer
+Trainee Engineer
+Legal Assistant
+Assistant Producer
+Trainee Journalist
+Marketing Assistant
+Army Corporal
+Junior Graphic Designer
+Nursery SEN Specialist
+Foreign Languages Teacher
+Trainee Psychologist
+Special Forces Operator

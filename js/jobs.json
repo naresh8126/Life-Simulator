@@ -1,0 +1,563 @@
+{
+  "Entry Level Jobs": [
+    {
+      "Name": "Dishwasher",
+      "Salary": 350,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    },
+    {
+      "Name": "Glass Collector",
+      "Salary": 400,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Cleaner",
+      "Salary": 400,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Funerel Assistant",
+      "Salary": 450,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Retail Assistant",
+      "Salary": 1200,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Fast Food Worker",
+      "Salary": 1200,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Telemarketing",
+      "Salary": 1400,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Sale Adviser",
+      "Salary": 1400,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Construction Traniee",
+      "Salary": 1300,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Army Cadet",
+      "Salary": 1300,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Trainee Nursery Nurse",
+      "Salary": 450,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Delivery Driver",
+      "Salary": 650,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Bakery Assistant",
+      "Salary": 500,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Cinema Host",
+      "Salary": 500,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    },
+    {
+      "Name": "Translator",
+      "Salary": 1400,
+      "Requirements": "Dishwasher",
+      "Experience": "6",
+      "Degree": ""
+    }
+    
+  ],
+  "Low Level Jobs": [
+    {
+      "Name": "Line Cook",
+      "Salary": 1600,
+      "Requirements": "Fast Food Worker",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Waiter",
+      "Salary": 1500,
+      "Requirements": "Glass Collector",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Executive Cleaner",
+      "Salary": 1500,
+      "Requirements": "Cleaner",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Funeral Adviser",
+      "Salary": 1600,
+      "Requirements": "Funerel Assistant",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Retail Assistant Manager",
+      "Salary": 1600,
+      "Requirements": "Retail Assistant",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Fast Food Assistant Manager",
+      "Salary": 1600,
+      "Requirements": "Fast Food Worker",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Business Sales",
+      "Salary": 1800,
+      "Requirements": "Sale Adviser",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Construction Worker",
+      "Salary": 1600,
+      "Requirements": "Construction Traniee",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Mechanic",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Mechanic Apprenticeship"
+    },
+    {
+      "Name": "Trainee Web Developer",
+      "Salary": 1500,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Web Developer Apprenticeship"
+    },
+    {
+      "Name": "Trainee Software Developer",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Software Developer Apprenticeship"
+    },
+    {
+      "Name": "Trainee Ethical Hacker",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "12",
+      "Degree": "Ethical Hacking Apprenticeship"
+    },
+    {
+      "Name": "Trainee Systems Analyst",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "System Analysis Apprenticeship"
+    },
+    {
+      "Name": "Trainee Games Developer",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Games Developer Apprenticeship"
+    },
+    {
+      "Name": "Trainee Accountant",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Accounting Apprenticeship"
+    },
+    {
+      "Name": "Army Private",
+      "Salary": 1700,
+      "Requirements": "Army Cadet",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "Trainee Graphic Designer",
+      "Salary": 1600,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Graphic Development Apprenticeship"
+    },
+    {
+      "Name": "Nursery Nurse",
+      "Salary": 1400,
+      "Requirements": "Trainee Nursery Nurse",
+      "Experience": "12",
+      "Degree": ""
+    },
+    {
+      "Name": "School Languages Assistant",
+      "Salary": 2000,
+      "Requirements": "Translator",
+      "Experience": "12",
+      "Degree": "Foreigns Language Degree"
+    },
+    {
+      "Name": "Psychology Assistant",
+      "Salary": 1400,
+      "Requirements": "",
+      "Experience": "12",
+      "Degree": ""
+    }
+  ],
+  "MId Level Jobs": [
+    {
+      "Name": "Sous Chef",
+      "Salary": 1900,
+      "Requirements": "Line Cook",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Head Waiter",
+      "Salary": 1800,
+      "Requirements": "Waiter",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Cleaning Manager",
+      "Salary": 1800,
+      "Requirements": "Executive Cleaner",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Funeral Assistant Manager",
+      "Salary": 1900,
+      "Requirements": "Funeral Adviser",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Retail Manager",
+      "Salary": 1900,
+      "Requirements": "Retail Assistant Manager",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Fast Food Manager",
+      "Salary": 1800,
+      "Requirements": "Fast Food Assistant Manager",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Business Sales Executive",
+      "Salary": 2000,
+      "Requirements": "Business Sales",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Construction Assistant Manager",
+      "Salary": 2000,
+      "Requirements": "Mechanic",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Lead Mechanic",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Web Designer",
+      "Salary": 1900,
+      "Requirements": "Trainee Web Developer",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Software Developer",
+      "Salary": 2000,
+      "Requirements": "Trainee Software Developer",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Ethical Hacker",
+      "Salary": 2000,
+      "Requirements": "Trainee Ethical Hacker",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Systems Analyst",
+      "Salary": 2000,
+      "Requirements": "Trainee Systems Analyst",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Games Developer",
+      "Salary": 2000,
+      "Requirements": "Trainee Games Developer",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Accountant",
+      "Salary": 2000,
+      "Requirements": "Trainee Accountant",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Assistant Curator-Paleontology",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Paleontology Degree"
+    },
+    {
+      "Name": "Marine Assistant",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Marine Biology Degree"
+    },
+    {
+      "Name": "Assistant Forensic Scientist",
+      "Salary": 2300,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Forensic Science Degree"
+    },
+    {
+      "Name": "Science Teacher",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Science Degree"
+    },
+    {
+      "Name": "Maths Teacher",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Maths Degree"
+    },
+    {
+      "Name": "English Teacher",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "English Degree"
+    },
+    {
+      "Name": "Nurse",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Medicine Degree"
+    },
+    {
+      "Name": "Dentistry Assistant",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Dentistry Degree"
+    },
+    {
+      "Name": "Conservation Assistant",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Conservation Degree"
+    },
+    {
+      "Name": "Trainee Meteorologist",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Meteorology Degree"
+    },
+    {
+      "Name": "Nursing Assistant",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Health and Social Degree"
+    },
+    {
+      "Name": "Trainee Photographer",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Photography Degree"
+    },
+    {
+      "Name": "Trainee Engineer",
+      "Salary": 2300,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Electrical Engineering Degree"
+    },
+    {
+      "Name": "Legal Assistant",
+      "Salary": 2400,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Low Degree"
+    },
+    {
+      "Name": "Assistant Producer",
+      "Salary": 2200,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Media Degree"
+    },
+    {
+      "Name": "Trainee Journalist",
+      "Salary": 2000,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Journalism Degree"
+    },
+    {
+      "Name": "Marketing Assistant",
+      "Salary": 2100,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": "Marketing Degree"
+    },
+    {
+      "Name": "Army Corporal",
+      "Salary": 2100,
+      "Requirements": "Army Private",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Junior Graphic Designer",
+      "Salary": 1900,
+      "Requirements": "Trainee Graphic Designer",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Nursery SEN Specialist",
+      "Salary": 2000,
+      "Requirements": "Nursery Nurse",
+      "Experience": "60",
+      "Degree": "Childcare A Level"
+    },
+    {
+      "Name": "Foreign Languages Teacher",
+      "Salary": 2800,
+      "Requirements": "School Languages Assistant",
+      "Experience": "Foreigns Language Masters",
+      "Degree": ""
+    },
+    {
+      "Name": "Trainee Psychologist",
+      "Salary": 2000,
+      "Requirements": "Psychology Assistant",
+      "Experience": "24",
+      "Degree": ""
+    },
+    {
+      "Name": "Special Forces Operator",
+      "Salary": 3000,
+      "Requirements": "Army Private",
+      "Experience": "36",
+      "Degree": ""
+    },
+    {
+      "Name": "",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    }
+  ],
+  "High Level Jobs": [
+    {
+      "Name": "",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    }
+  ],
+  "Top Level Jobs": [
+    {
+      "Name": "",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    }
+  ],
+  "Special Jobs": [
+    {
+      "Name": "",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    }
+  ],
+  "Criminal Level Jobs": [
+    {
+      "Name": "",
+      "Salary": 0,
+      "Requirements": "",
+      "Experience": "",
+      "Degree": ""
+    }
+  ]
+}
