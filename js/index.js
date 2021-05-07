@@ -1,3 +1,5 @@
+console.log("working js");
+
 // elements and variables
 let body = document.getElementsByTagName("body");
 let main = document.querySelector(".main");
@@ -16,10 +18,18 @@ let Doctorate_Courses = document.getElementById("Doctorate_Courses");
 let Specialist_Courses = document.getElementById("Specialist_Courses");
 let day_left_education = document.getElementById("day_left_education");
 let qualifications_el = document.getElementById("qualifications");
+let in_education;
+let current_degrees;
+let days_left_in_education;
+let currently_doing_course;
+let feespermonth;
+let givespermonth;
+
 let playername_el = document.getElementById("playername");
 let childnode = document.createElement("li");
 let start = document.getElementById("newlife");
-let payername = document.getElementById("payernameinput").value;
+
+
 // cash
 let PlayerName;
 let current_cash;
@@ -31,19 +41,14 @@ let full_time_study;
 let doing_job;
 let current_job;
 // education
-let in_education;
-let current_degrees;
-let days_left_in_education;
-let currently_doing_course;
-let feespermonth;
-let givespermonth;
+
 // jobs
 let jobs;
 let job_salary;
 let job_requirments;
 // Date
 let startdate;
-let dob = startdate;
+let dob
 let current_age;
 let day = 60 * 60 * 24 * 1000;
 let date;
@@ -51,56 +56,40 @@ let match;
 let localstorage1 = localStorage.getItem("localstorage");
 
 // user local storage check #####
-window.addEventListener("load",()=>{
-  start.style.display = "none";
-  PlayerName = localStorage.getItem("PlayerName");
-  current_cash = parseInt(localStorage.getItem("current_cash"));
-  per_month_income = parseInt(localStorage.getItem("per_month_income")); 
-  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses")); 
-  in_education = parseInt(localStorage.getItem("in_education")); 
-  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses")); 
-  startdate = new Date(localStorage.getItem("startdate"));
-  gameloop();
-})
 
 if (localstorage1 != null) {
+  console.log("local check");
+try {
   start.style.display = "none";
+  
+} catch (error) {
+  
+}
+
   PlayerName = localStorage.getItem("PlayerName");
   current_cash = parseInt(localStorage.getItem("current_cash"));
-  per_month_income = parseInt(localStorage.getItem("per_month_income")); 
-  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses")); 
-  in_education = parseInt(localStorage.getItem("in_education")); 
-  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses")); 
+  per_month_income = parseInt(localStorage.getItem("per_month_income"));
+  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses"));
+  in_education = parseInt(localStorage.getItem("in_education"));
+  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses"));
   startdate = new Date(localStorage.getItem("startdate"));
+  current_degrees = JSON.parse(localStorage.getItem("current_degrees"));
+  dob = new Date(localStorage.getItem("dob"));
+ 
   gameloop();
 } else {
-  StartNewLife()
+  StartNewLife();
 }
-console.log(startdate);
+console.log("startdate");
 // fetching courses.json
-fetch("./js/courses.json")
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    json_courses = data;
-    addCourse(json_courses["Apprentices"], Appernticeship, true);
-    addCourse(json_courses["College Courses"], College_Courses, false);
-    addCourse(json_courses["University Courses"], University_Courses, false);
-    addCourse(
-      json_courses["Masters Degree Courses"],
-      Masters_Degree_Courses,
-      false
-    );
-    addCourse(json_courses["Doctorate Courses"], Doctorate_Courses, false);
-    addCourse(json_courses["Specialist Courses"], Specialist_Courses, false);
-  });
+
 
 // navbar links active state
 
 // Functions ##############
 function StartNewLife() {
   start.style.display = "block";
+  let payername = document.getElementById("payernameinput").value;
   localStorage.clear();
   PlayerName = payername;
   current_cash = 0;
@@ -120,7 +109,7 @@ function StartNewLife() {
   job_salary = [];
   job_requirments = [];
   startdate = new Date();
-  dob = startdate;
+  dob = new Date();
   current_age = 16;
   day = 60 * 60 * 24 * 1000;
   date;
@@ -128,7 +117,6 @@ function StartNewLife() {
   setlocalvariables();
   localstorage1 = true;
   gameloop();
-  
 }
 function setlocalvariables() {
   localStorage.setItem("localstorage", localstorage1);
@@ -136,7 +124,7 @@ function setlocalvariables() {
   localStorage.setItem("current_cash", current_cash);
   localStorage.setItem("per_month_income", per_month_income);
   localStorage.setItem("per_month_expenses", per_month_expenses);
-  localStorage.setItem("current_degrees", current_degrees);
+  localStorage.setItem("current_degrees", JSON.stringify(current_degrees));
   localStorage.setItem("days_left_in_education", days_left_in_education);
   localStorage.setItem("feespermonth", feespermonth);
   localStorage.setItem("startdate", startdate);
@@ -144,107 +132,8 @@ function setlocalvariables() {
   localStorage.setItem("doing_job", doing_job);
   localStorage.setItem("current_job", current_job);
   localStorage.setItem("in_education", in_education);
-  localStorage.setItem("dob", dob);
 }
-function addCourse(course, course_el, fulltime) {
-  course.forEach((element) => {
-    childnode = document.createElement("li");
-    childnode.innerHTML = `${element.name}`;
-    childnode.classList.add("btn1");
 
-    childnode.addEventListener("click", () => {
-      if (!in_education && !current_degrees.includes(element.name)) {
-        if (element.requirements === "") {
-          full_time_study = fulltime;
-          if (element.feespermonth != 0) {
-            if (per_month_income >= element.feespermonth) {
-              per_month_expenses += element.feespermonth;
-              feespermonth = element.feespermonth;
-              in_education = true;
-              currently_doing_course = element.name;
-              days_left_in_education = (element.duration / 6) * 182;
-            } else {
-              console.log("Per month income does not enough");
-            }
-          }
-
-          if (element.givespermonth != 0) {
-            per_month_income += element.givespermonth;
-            givespermonth = element.givespermonth;
-            in_education = true;
-            currently_doing_course = element.name;
-            days_left_in_education = (element.duration / 6) * 182;
-          }
-
-          if (element.onetimefees != 0) {
-            if (current_cash >= element.onetimefees) {
-              current_cash -= element.onetimefees;
-              in_education = true;
-              s;
-              currently_doing_course = element.name;
-              days_left_in_education = (element.duration / 6) * 182;
-            } else {
-              console.log("You dont have enough cash");
-            }
-          }
-        } else if (current_degrees.includes(element.requirements)) {
-          if (element.feespermonth != 0) {
-            if (per_month_income >= element.feespermonth) {
-              per_month_expenses += element.feespermonth;
-              feespermonth = element.feespermonth;
-              in_education = true;
-              currently_doing_course = element.name;
-              days_left_in_education = (element.duration / 6) * 182;
-            } else {
-              console.log("Per month income does not enough");
-            }
-          }
-
-          if (element.givespermonth != 0) {
-            per_month_income += element.givespermonth;
-            givespermonth = element.givespermonth;
-            in_education = true;
-            currently_doing_course = element.name;
-            days_left_in_education = (element.duration / 6) * 182;
-          }
-
-          if (element.onetimefees != 0) {
-            if (current_cash >= element.onetimefees) {
-              current_cash -= element.onetimefees;
-              in_education = true;
-              s;
-              currently_doing_course = element.name;
-              days_left_in_education = (element.duration / 6) * 182;
-            } else {
-              console.log("You dont have enough cash");
-            }
-          }
-        } else {
-          console.log(
-            "course requirements did not match " +
-              current_degrees +
-              element.requirements
-          );
-        }
-      } else {
-        console.log("you are  already in education");
-      }
-    });
-
-    course_el.appendChild(childnode);
-  });
-}
-function quit_course() {
-  if (in_education) {
-    in_education = false;
-    days_left_in_education = 0;
-    currently_doing_course = "";
-    per_month_expenses -= feespermonth;
-    per_month_income -= givespermonth;
-    feespermonth = 0;
-    givespermonth = 0;
-  }
-}
 function setdate() {
   date = new Date(startdate.getTime() + day);
   gamedate.innerText = `${startdate.getDate()} / ${
@@ -272,7 +161,9 @@ function gameloop() {
     setcash();
 
     setlocalvariables();
-    playername_el.innerHTML = `${PlayerName}`;
+    try {
+      playername_el.innerHTML = `${PlayerName}`;
+    } catch (error) {}
     if (qualifications_el != null) {
       let innerd = "";
       current_degrees.forEach((element) => {
@@ -298,48 +189,12 @@ function gameloop() {
         givespermonth = 0;
       }
     }
-    day_left_education.innerHTML = `<div>${days_left_in_education} Days Remaining </br> <p class="text-white-50">Current Course: ${currently_doing_course}</p></div>`;
+    try {
+      day_left_education.innerHTML = `<div>${days_left_in_education} Days Remaining </br> <p class="text-white-50">Current Course: ${currently_doing_course}</p></div>`;
+      
+    } catch (error) {
+      
+    }
   }, 1000);
 }
 
-// classes
-class job {
-  constructor(job_name, job_salary, job_requirments) {
-    this.name = job_name;
-    this.salary = job_salary;
-    this.requirments = job_requirments;
-  }
-  do() {
-    match = 0;
-    degrees.forEach((element) => {
-      if (element === this.requirments) {
-        match += 1;
-      }
-    });
-    if (!doing_job) {
-      if (match === 1) {
-        doing_job = true;
-        current_job = this.name;
-        per_month_income += this.salary;
-      } else {
-        console.log("dont have an degree");
-      }
-    } else {
-      console.log("already doing a job");
-    }
-  }
-  quit() {
-    if (doing_job) {
-      doing_job = false;
-      current_job = "";
-      per_month_income -= this.salary;
-    } else {
-      console.log("you are not doing any job");
-    }
-  }
-}
-
-for (let index = 0; index < jobs.length; index++) {
-  jobs[index] = new job(jobs[index], job_salary[index], job_requirments[index]);
-  // console.log(jobs[index])
-}
