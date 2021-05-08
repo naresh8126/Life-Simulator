@@ -27,8 +27,6 @@ let givespermonth;
 
 let playername_el = document.getElementById("playername");
 let childnode = document.createElement("li");
-let start = document.getElementById("newlife");
-
 
 // cash
 let PlayerName;
@@ -48,7 +46,7 @@ let job_salary;
 let job_requirments;
 // Date
 let startdate;
-let dob
+let dob;
 let current_age;
 let day = 60 * 60 * 24 * 1000;
 let date;
@@ -59,36 +57,35 @@ let localstorage1 = localStorage.getItem("localstorage");
 
 if (localstorage1 != null) {
   console.log("local check");
-try {
-  start.style.display = "none";
-  
-} catch (error) {
-  
-}
-
   PlayerName = localStorage.getItem("PlayerName");
   current_cash = parseInt(localStorage.getItem("current_cash"));
   per_month_income = parseInt(localStorage.getItem("per_month_income"));
   per_month_expenses = parseInt(localStorage.getItem("per_month_expenses"));
-  in_education = parseInt(localStorage.getItem("in_education"));
-  per_month_expenses = parseInt(localStorage.getItem("per_month_expenses"));
+  in_education = JSON.parse(localStorage.getItem("in_education"))
   startdate = new Date(localStorage.getItem("startdate"));
   current_degrees = JSON.parse(localStorage.getItem("current_degrees"));
   dob = new Date(localStorage.getItem("dob"));
- 
+  full_time_job = JSON.parse(localStorage.getItem("full_time_job"));
+  currently_doing_course = localStorage.getItem("currently_doing_course");
+  full_time_study = localStorage.getItem("full_time_study");
+  days_left_in_education = parseInt(localStorage.getItem("days_left_in_education"))
+  feespermonth = parseInt(localStorage.getItem("feespermonth"))
+  givespermonth = parseInt(localStorage.getItem("givespermonth"))
+  doing_job = JSON.parse(localStorage.getItem("doing_job"));
+  current_age = parseInt(localStorage.getItem("current_age"))
+  current_job = localStorage.getItem("current_job");
+
   gameloop();
 } else {
-  StartNewLife();
+  // location.href = "startnewlife.html";
 }
 console.log("startdate");
 // fetching courses.json
-
 
 // navbar links active state
 
 // Functions ##############
 function StartNewLife() {
-  start.style.display = "block";
   let payername = document.getElementById("payernameinput").value;
   localStorage.clear();
   PlayerName = payername;
@@ -123,13 +120,18 @@ function setlocalvariables() {
   localStorage.setItem("PlayerName", PlayerName);
   localStorage.setItem("current_cash", current_cash);
   localStorage.setItem("per_month_income", per_month_income);
+  localStorage.setItem("full_time_job", full_time_job);
+  localStorage.setItem("currently_doing_course", currently_doing_course);
+  localStorage.setItem("full_time_study", full_time_study);
   localStorage.setItem("per_month_expenses", per_month_expenses);
   localStorage.setItem("current_degrees", JSON.stringify(current_degrees));
   localStorage.setItem("days_left_in_education", days_left_in_education);
   localStorage.setItem("feespermonth", feespermonth);
+  localStorage.setItem("givespermonth", givespermonth);
   localStorage.setItem("startdate", startdate);
   localStorage.setItem("dob", dob);
   localStorage.setItem("doing_job", doing_job);
+  localStorage.setItem("current_age", current_age);
   localStorage.setItem("current_job", current_job);
   localStorage.setItem("in_education", in_education);
 }
@@ -191,10 +193,6 @@ function gameloop() {
     }
     try {
       day_left_education.innerHTML = `<div>${days_left_in_education} Days Remaining </br> <p class="text-white-50">Current Course: ${currently_doing_course}</p></div>`;
-      
-    } catch (error) {
-      
-    }
+    } catch (error) {}
   }, 1000);
 }
-
