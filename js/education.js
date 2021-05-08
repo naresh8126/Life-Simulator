@@ -35,7 +35,7 @@ function addCourse(course, course_el, fulltime) {
                 currently_doing_course = element.name;
                 days_left_in_education = (element.duration / 6) * 182;
               } else {
-                console.log("Per month income does not enough");
+                msg(`Per month income does not enough`);
               }
             }
   
@@ -55,7 +55,7 @@ function addCourse(course, course_el, fulltime) {
                 currently_doing_course = element.name;
                 days_left_in_education = (element.duration / 6) * 182;
               } else {
-                console.log("You dont have enough cash");
+                msg(`You dont have enough cash`);
               }
             }
           } else if (current_degrees.includes(element.requirements)) {
@@ -67,7 +67,7 @@ function addCourse(course, course_el, fulltime) {
                 currently_doing_course = element.name;
                 days_left_in_education = (element.duration / 6) * 182;
               } else {
-                console.log("Per month income does not enough");
+                msg(`Per month income does not enough`)
               }
             }
   
@@ -87,18 +87,16 @@ function addCourse(course, course_el, fulltime) {
                 currently_doing_course = element.name;
                 days_left_in_education = (element.duration / 6) * 182;
               } else {
-                console.log("You dont have enough cash");
+                
+                msg(`You dont have enough cash`)
               }
             }
           } else {
-            console.log(
-              "course requirements did not match " +
-                current_degrees +
-                element.requirements
-            );
+            msg(`course requirements did not match ${element.requirements}`)
           }
         } else {
-          console.log("you are  already in education");
+          
+          msg(`you are  already in education`)
         }
       });
   

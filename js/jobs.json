@@ -176,14 +176,14 @@
       "Salary": 1500,
       "Requirements": "",
       "Experience": "",
-      "Degree": "Web Developer Apprenticeship"
+      "Degree": "Website Development Apprenticeship"
     },
     {
       "Name": "Trainee Software Developer",
       "Salary": 1600,
       "Requirements": "",
       "Experience": "",
-      "Degree": "Software Developer Apprenticeship"
+      "Degree": "Software Development Apprenticeship"
     },
     {
       "Name": "Trainee Ethical Hacker",
@@ -514,13 +514,6 @@
       "Salary": 3000,
       "Requirements": "Army Private",
       "Experience": "36",
-      "Degree": ""
-    },
-    {
-      "Name": "",
-      "Salary": 0,
-      "Requirements": "",
-      "Experience": "",
       "Degree": ""
     }
   ],

@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game</title>
-    <base href="/LIfe-Simulator/" target="_self">
+    <base href="/Life-Simulator/" target="_self">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="top">
+    <div class="msg_main">
+        <div class="msg_body">
+            
+        </div>
+    </div>
     <div class="navup">
         <div class="Totel-Cash">
             Totel Cash
             <p id="cash">0</p>
         </div>
         <ul>
-            <li><a href="/LIfe-Simulator/" class="navlinks "><img src="icon/png/346-home.png" alt="">Home</a></li>
-            <li><a href="Employment.html" class="navlinks active"><img src="icon/png/260-resume.png" alt="">Employment</a></li>
+            <li><a href="/" class="navlinks "><img src="icon/png/346-home.png" alt="">Home</a></li>
+            <li><a href="Employment.html" class="navlinks active"><img src="icon/png/260-resume.png"
+                        alt="">Employment</a></li>
             <li><a href="Education.html" class="navlinks"><img src="icon/png/283-notebook.png" alt="">Education</a></li>
             <li><a href="Business.html" class="navlinks"><img src="icon/png/111-idea.png" alt="">Business</a></li>
             <li><a href="Finance.html" class="navlinks"><img src="icon/png/079-calculator.png" alt="">Finance</a></li>
@@ -33,7 +39,8 @@
             <p id="gamedate"></p>
         </div>
         <ul>
-            <li><a href="Relationship.html" class="navlinks"><img src="icon/png/359-users.png" alt="">Relationship</a></li>
+            <li><a href="Relationship.html" class="navlinks"><img src="icon/png/359-users.png" alt="">Relationship</a>
+            </li>
             <li><a href="Properties.html" class="navlinks"><img src="icon/png/368-house.png" alt="">Properties</a></li>
             <li><a href="Shopping.html" class="navlinks"><img src="icon/png/187-tabs.png" alt="">Shopping</a></li>
             <li><a href="Health.html" class="navlinks"><img src="icon/png/128-like.png" alt="">Health</a></li>
@@ -43,38 +50,82 @@
         </ul>
     </div>
 
-   
+
     <div class="section" id="Employment">
         <div class="gap"></div>
-        <h3 class="text-center text-warning ">Employment</h3> 
+        <h3 class="text-center text-warning ">Employment</h3>
         <div class="row">
             <div class="box col mx-1">
                 <div>
                     <p>Employment Status
                     </p>
-                    <p class="text-white-50">None</p>
+                    <p id="Employment_Status" class="text-white-50"></p>
                 </div>
             </div>
             <div class="box col mx-1">
                 <div>
-                   <p>Current Salary</p>
-                   <p class="text-white-50">$1.54 k/ month</p>
+                    <p>Current Salary</p>
+                    <p id="Current_Salary" class="text-white-50">$1.54 k/ month</p>
                 </div>
             </div>
-            <div class="box flex-column">
-                Courses Available
-                <ul id="jobs_list">
-                    <li>
-                        <p class="heading">Appernticeship</p>
-                        <ul >
-                            <li class="btn1">hhh</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <div class="box flex-column">
+            Jobs Available
+            <ul id="jobs_list">
+                <li>
+                    <div class="heading">Entry Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="elj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Low Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="llj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">MId Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="mlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">High Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="hlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Top Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="tlj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Special Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="sj">
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="heading">Criminal Level Jobs<div class="text-black-50"></div>
+                    </div>
+                    <ul id="clj">
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="btn btn-danger m-3" onclick="quit_job()">quit Job</div>
         </div>
     </div>
-
+<a href=" #top" id="gotop"></a>
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
