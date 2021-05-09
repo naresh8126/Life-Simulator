@@ -17,54 +17,69 @@ fetch("./js/jobs.json")
   })
   .then((data) => {
     json_jobs = data;
-    addCourse(json_jobs["Entry Level Jobs"], elj);
-    addCourse(json_jobs["Low Level Jobs"], llj);
-    addCourse(json_jobs["MId Level Jobs"], mlj);
-    addCourse(json_jobs["High Level Jobs"], hlj);
-    addCourse(json_jobs["Top Level Jobs"], tlj);
-    addCourse(json_jobs["Special Jobs"], sj);
-    addCourse(json_jobs["Criminal Level Jobs"], clj);
+    addjob(json_jobs["Entry Level Jobs"], elj);
+    addjob(json_jobs["Low Level Jobs"], llj);
+    addjob(json_jobs["MId Level Jobs"], mlj);
+    addjob(json_jobs["High Level Jobs"], hlj);
+    addjob(json_jobs["Top Level Jobs"], tlj);
+    addjob(json_jobs["Special Jobs"], sj);
+    addjob(json_jobs["Criminal Level Jobs"], clj);
   });
 
-function addCourse(job, job_el) {
+function addjob(job, job_el) {
   job.forEach((element) => {
     childnode = document.createElement("li");
     childnode.innerHTML = `${element.Name} - ${element.Salary} / month`;
     childnode.classList.add("btn1");
     childnode.addEventListener("click", () => {
-      if (!doing_job) {
-        if (element.Requirements === "") {
-          if (element.Degree === "") {
-            dojob(element)
-          } else {
-            if (current_degrees.includes(element.Degree)) {
+      if (full_time_study) {
+        msg(`you are doing full time study cant't do a job`);
+      } else {
+        if (!doing_job) {
+          if (element.Requirements === "") {
+            if (element.Degree === "") {
               dojob(element)
             } else {
-              msg(`This job requirements is ${element.Degree}`);
+              if (current_degrees.includes(element.Degree)) {
+                dojob(element)
+              } else {
+                msg(`This job requirements is ${element.Degree}`);
+              }
+            }
+          } else {
+            if (element.Degree === "") {
+              if (resume_includes(element.Requirements)) {
+                if (get_exp(element.Requirements) >= element.Experience) {
+                  dojob(element)
+                  
+                } else {
+                  msg(`This job require ${element.Experience} months Experience of ${element.Requirements} and you have ${get_exp(element.Requirements)} months Experience`);
+                }
+              } else {
+                msg(`This job requirements is ${element.Experience} month experience of ${element.Requirements}`);
+              }
+            } else {
+              if (current_degrees.includes(element.Degree)) {
+                if (resume_includes(element.Requirements)) {
+                  if (get_exp(element.Requirements) >= element.Experience) {
+                    dojob(element)
+                    
+                  } else {
+                    msg(`This job require ${element.Experience} of ${element.Requirements} and you have ${get_exp(element.Requirements)}`);
+                  }
+                } else {
+                  msg(`This job requirements is ${element.Requirements} experience and ${element.Degree} degree`);
+                }
+              } else {
+                msg(`This job requirements is ${element.Experience} month experience of ${element.Requirements} and ${element.Degree}`);
+              }
             }
           }
         } else {
-          if (element.Degree === "") {
-            if (resume_includes(element.Requirements)) {
-              dojob(element)
-            } else {
-              msg(`This job requirements is ${element.Experience} month experience of ${element.Requirements}`);
-            }
-          } else {
-            if (current_degrees.includes(element.Degree)) {
-              if (resume_includes(element.Requirements)) {
-                dojob(element)
-              } else {
-                msg(`This job requirements is ${element.Requirements} experience and ${element.Degree} degree`);
-              }
-            } else {
-              msg(`This job requirements is ${element.Experience} month experience of ${element.Requirements} and ${element.Degree}`);
-            }
-          }
+          msg(`You are already doing a ${current_job} job`);
         }
-      } else {
-        msg(`You already doing ${current_job} job`);
       }
+      
     });
 
     job_el.appendChild(childnode);
@@ -88,22 +103,19 @@ function addCourse(job, job_el) {
   }
 }
 
-function check_exp(name_of_job,exp){
+function get_exp(name_of_job){
   let i
   resume.forEach(e => {
     if (e[0] == name_of_job) {
       i = resume.indexOf(e)
-      console.log(e)
     }
   });
-  console.log(i)
-    if (resume[i][1] >= Number(exp)) {
-      return true
-    }else{
-      return false
-    }
-    
-
+  try {
+    return resume[i][1]
+  } catch (error) {
+    return 0
+  }
+   
 }
 
 function resume_includes(element){

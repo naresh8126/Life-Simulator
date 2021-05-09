@@ -56,7 +56,7 @@ let resume
 // user local storage check #####
 
 if (localstorage1 != null) {
-  console.log("local check");
+  
   PlayerName = localStorage.getItem("PlayerName");
   current_cash = parseInt(localStorage.getItem("current_cash"));
   per_month_income = parseInt(localStorage.getItem("per_month_income"));
@@ -68,7 +68,7 @@ if (localstorage1 != null) {
   dob = new Date(localStorage.getItem("dob"));
   full_time_job = JSON.parse(localStorage.getItem("full_time_job"));
   currently_doing_course = localStorage.getItem("currently_doing_course");
-  full_time_study = localStorage.getItem("full_time_study");
+  full_time_study = JSON.parse(localStorage.getItem("full_time_study"));
   days_left_in_education = parseInt(localStorage.getItem("days_left_in_education"))
   feespermonth = parseInt(localStorage.getItem("feespermonth"))
   givespermonth = parseInt(localStorage.getItem("givespermonth"))
@@ -81,7 +81,6 @@ if (localstorage1 != null) {
 } else {
   // location.href = "startnewlife.html";
 }
-console.log("startdate");
 // fetching courses.json
 
 // navbar links active state
@@ -187,7 +186,7 @@ function gameloop() {
       days_left_in_education -= 1;
       if (days_left_in_education === 0) {
         in_education = false;
-
+        full_time_study = false
         per_month_expenses -= feespermonth;
         per_month_income -= givespermonth;
         current_degrees = current_degrees.concat([currently_doing_course]);
@@ -205,7 +204,7 @@ function gameloop() {
         resume.forEach(element => {
           if (element[0] == current_job) {
             element[1] =  element[1]+1
-            console.log(element[1])
+           
           }
           
         });
